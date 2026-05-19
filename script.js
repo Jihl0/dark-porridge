@@ -12,7 +12,7 @@ const artifacts = [
     title: "The Dark Disc",
     image:
       "https://pilipinasrecipes.com/wp-content/uploads/2017/03/Tablea-Tsokolate-Recipe.jpg",
-    imageSource: "Pilipinas Recipes",
+    imageSource: "Image Source: Pilipinas Recipes",
     imageDescription: "Image of cocoa tablets to dissolve to heat",
     ritualAccount:
       "The brown disc which smells like earth and is small enough to fit in the palm of my hand. I see this one being dissolved rather than consumed. The disc itself is not the food but is an important element which helps make water and rice into something else. This disc is the catalyst for the ritual.",
@@ -23,7 +23,7 @@ const artifacts = [
     title: "The Sacred Grains",
     image:
       "https://pindotlang.com/cdn/shop/products/Roundmalagkit.jpg?v=1611229907",
-    imageSource: "Farm2Metro",
+    imageSource: "Image Source: Farm2Metro",
     imageDescription: "Image of rice grains used in the porridge",
     ritualAccount:
       "What type of rice is this? It looks like any other type of rice, but its consistency is different. It’s sticky. Why is it being cooked? Why is it being mixed with the dark disk? What does this little white grain signify in the ceremony?",
@@ -34,7 +34,7 @@ const artifacts = [
     title: "The Silver Fish",
     image:
       "https://www.thepeachkitchen.com/wp-content/uploads/2011/04/tuyo.jpg",
-    imageSource: "The Peach Kitchen",
+    imageSource: "Image Source: The Peach Kitchen",
     imageDescription: "Image of dried salted fish",
     ritualAccount:
       "What type of fish is this? This seems to be a fish that has been dried and salted. Why is this being included? Porridge has been sweetened; why should we now include saltiness? What role does it play in the ritual? Why is this fish dried in the first place?",
@@ -45,7 +45,7 @@ const artifacts = [
     title: "The Heavy Vessel",
     image:
       "https://i0.wp.com/www.astigvegan.com/wp-content/uploads/2019/06/rice-in-claypot-with-banana-leaves.jpg?resize=562%2C750&ssl=1",
-    imageSource: "ASTIG Vegan",
+    imageSource: "Image Source: ASTIG Vegan",
     imageDescription: "Image of a pot used to cook",
     ritualAccount:
       "What kind of pot is this? It looks old and heavy. Why not use a rice cooker? Does it need the low flame and the slow cooking process? Why is it important to use this specific vessel for the ritual?",
@@ -56,7 +56,7 @@ const artifacts = [
     title: "The Sweet Crystals",
     image:
       "https://mediko.ph/wp-content/uploads/2020/03/asukal-pula-at-puti.jpg",
-    imageSource: "Mediko.PH",
+    imageSource: "Image Source: Mediko.PH",
     imageDescription: "Image of crystals that are sweet",
     ritualAccount:
       "Brown crystals and white crystals. Both are sweet, but they differ in appearance. Why are there two types of sweeteners? Do they have different tastes? Why are they used towards the end of the ritual without even measuring their quantities?",
@@ -67,7 +67,7 @@ const artifacts = [
     title: "The Milk River",
     image:
       "https://www.alaskamilk.com/wp-content/uploads/2017/07/New-Project-10.jpg",
-    imageSource: "Alaska Milk",
+    imageSource: "Image Source: Alaska Milk",
     imageDescription: "Image of a milky substance",
     ritualAccount:
       "This milk, it looks like it has been added to the porridge. Why not use water or another liquid? Does this burnt porridge need milk? Why is it important to use this specific ingredient for the ritual?",
