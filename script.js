@@ -15,9 +15,9 @@ const artifacts = [
     imageSource: "Pilipinas Recipes",
     imageDescription: "Image of cocoa tablets to dissolve to heat",
     ritualAccount:
-      "A dark disc that smells earthy and pocket-sized that can fit in my palm. I see it being dissolved, not eaten directly. This disk itself is not the meal, but it is the essential ingredient that transforms water and rice into something more. It is the catalyst for the ritual, the first step that sets everything else in motion.",
+      "The brown disc which smells like earth and is small enough to fit in the palm of my hand. I see this one being dissolved rather than consumed. The disc itself is not the food but is an important element which helps make water and rice into something else. This disc is the catalyst for the ritual.",
     decoder:
-      "This disk is called tablea, a processed form of cacao that is used to make tsokolate. Tablea is made from roasted cacao beans that are ground and formed into tablets. It is the key ingredient that gives champorado its distinctive dark color and rich flavor. This was first introduced in the Manila-Acapulco galleon trade, and cacao cultivation was established in the Philippines during the Spanish colonial period. Tablea is still widely used in Filipino households today, not just for champorado but also for making hot chocolate and other desserts.",
+      "This disk is referred to as tablea, which is a processed product of cacao and used for making tsokolate. Tablea is produced by roasting cacao beans then grinding and pressing them into a tablet form. It is the main component that makes champorado have its unique dark color and taste. The product was introduced during the Manila-Acapulco galleon trade, and cultivation of cacao became popular during the Spanish colonization period in the Philippines. Tablea remains an extensively used ingredient among Filipinos for making champorado and hot chocolate drinks.",
   },
   {
     title: "The Sacred Grains",
@@ -26,9 +26,9 @@ const artifacts = [
     imageSource: "Farm2Metro",
     imageDescription: "Image of rice grains used in the porridge",
     ritualAccount:
-      "What kind of rice is this? It looks ordinary, but its texture is unique. Its sticky. Why is it being cooked? Why is it being mixed with the dark disk? What's the role of this small white grain in the ritual? ",
+      "What type of rice is this? It looks like any other type of rice, but its consistency is different. It’s sticky. Why is it being cooked? Why is it being mixed with the dark disk? What does this little white grain signify in the ceremony?",
     decoder:
-      "This rice is called malagkit, a type of glutinous rice that is commonly used in Filipino dishes. It is known for its sticky texture and is often used in desserts and traditional dishes. When cooking champorado, it serves as the base, providing a soft and comforting sensation.",
+      "Malagkit is the name of the type of rice used, which is glutinous rice in English, a widely used ingredient in Filipino cooking. In cooking champorado, the malagkit rice acts as the base, giving a soothing feeling when cooked.",
   },
   {
     title: "The Silver Fish",
@@ -37,9 +37,9 @@ const artifacts = [
     imageSource: "The Peach Kitchen",
     imageDescription: "Image of dried salted fish",
     ritualAccount:
-      "What kind of fish is this? It looks like it has been dried and salted. Why is it being added? The porridge already tastes sweet, why do we add saltiness to it? What does it represent in the ritual? Why is it dried in the first place?",
+      "What type of fish is this? This seems to be a fish that has been dried and salted. Why is this being included? Porridge has been sweetened; why should we now include saltiness? What role does it play in the ritual? Why is this fish dried in the first place?",
     decoder:
-      "Tuyo, a type of dried and salted fish that is a staple food in the Philippines. It is often used as an ingredient in various dishes, adding a savory and umami flavor.",
+      "Tuyo is a dried and salted fish that is one of the staple foods of the Philippines. It can be included in the preparation of different kinds of dishes due to its savory taste.",
   },
   {
     title: "The Heavy Vessel",
@@ -59,9 +59,9 @@ const artifacts = [
     imageSource: "Mediko.PH",
     imageDescription: "Image of crystals that are sweet",
     ritualAccount:
-      "There are brown crystals and white crystals. They are both sweet, but they look different. Why do we need two kinds of sweeteners? Do they represent different kinds of sweetness? Why are they added at the end of the ritual without even measuring how much is added?",
+      "Brown crystals and white crystals. Both are sweet, but they differ in appearance. Why are there two types of sweeteners? Do they have different tastes? Why are they used towards the end of the ritual without even measuring their quantities?",
     decoder:
-      "Sugar is a commonly used as a sweetener, often added to champorado to enhance its flavor. The brown crystals are muscovado sugar, which has a rich, molasses-like flavor, while the white crystals are granulated sugar, which has a more neutral sweetness. The use of both types of sugar allows for a balance of flavors, with the muscovado adding depth and complexity to the sweetness of the dish. Unmeasured addition of sugar is common in home cooking, as it allows for personal preference and the ability to adjust the sweetness to taste. In the ritual of making champorado, the addition of sugar at the end allows for a final adjustment to achieve the desired level of sweetness, making it a more personalized and comforting dish.",
+      "Sugar is one of the most common sweeteners that can be put into champorado to improve its taste. The brown crystals is called muscovado, while the white crystals is granulated sugar. The combination of two kinds of sugar helps create balance of flavors and add richness to the sweetness of the food. Unmeasured addition of sugar is quite common in home cooking, since it gives a person an opportunity to change the sweetness according to his/her taste. In the context of the ritual of preparing champorado, the addition of sugar at the very end helps personalize the dish.",
   },
   {
     title: "The Milk River",
@@ -72,7 +72,7 @@ const artifacts = [
     ritualAccount:
       "This milk, it looks like it has been added to the porridge. Why not use water or another liquid? Does this burnt porridge need milk? Why is it important to use this specific ingredient for the ritual?",
     decoder:
-      "Evaporated milk is often added to champorado to enhance its creaminess. It adds a rich and velvety texture to the dish, making it more indulgent and comforting.",
+      "Evaporated milk is commonly used in the preparation of champorado because of the effect it gives to the food. It makes champorado have a creamier and lighter taste, making the dish more elevated.",
   },
 ];
 
