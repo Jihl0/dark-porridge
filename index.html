@@ -1,0 +1,330 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="An interactive ethnographic zine about champorado at tuyo."
+    />
+    <title>Ang Misteryo ng Itim na Lugaw</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Playfair+Display:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <!-- Rain Audio Toggle Button -->
+      <button
+        class="audio-toggle"
+        id="audio-toggle"
+        aria-label="Toggle rain sounds"
+        title="Toggle rain sounds"
+      >
+        <span class="audio-toggle__icon" id="audio-icon">🔊</span>
+      </button>
+
+      <!-- Hidden audio element -->
+      <audio id="rain-audio" loop preload="auto">
+        <source src="assets/rain.mp3" type="audio/mpeg" />
+        Your browser does not support the audio element.
+      </audio>
+
+      <!-- Hero / title screen -->
+      <header class="hero" id="top" data-aos="fade-in" data-aos-duration="1500">
+        <div class="hero__overlay" aria-hidden="true"></div>
+        <div class="hero__content container">
+          <p
+            class="eyebrow"
+            data-aos="fade-down"
+            data-aos-delay="200"
+            data-aos-duration="800"
+          >
+            Interactive Ethnography
+          </p>
+          <h1 data-aos="fade-up" data-aos-delay="400" data-aos-duration="1000">
+            Ang Misteryo ng Itim na Lugaw
+          </h1>
+          <p
+            class="hero__subtitle"
+            data-aos="fade-up"
+            data-aos-delay="600"
+            data-aos-duration="800"
+          >
+            An Interactive Ethnography of Champorado at Tuyo
+          </p>
+          <p
+            class="hero__lede"
+            data-aos="fade-up"
+            data-aos-delay="800"
+            data-aos-duration="800"
+          >
+            A morning ritual of sweetness, salt, memory, and interruption.
+          </p>
+          <a
+            class="hero__scroll"
+            href="#introduction"
+            aria-label="Scroll to introduction"
+            data-aos="fade-up"
+            data-aos-delay="1200"
+            data-aos-duration="800"
+          >
+            <span class="hero__arrow" aria-hidden="true">↓</span>
+          </a>
+        </div>
+      </header>
+
+      <main>
+        <!-- Introduction and ethnographer's notes -->
+        <section class="section introduction" id="introduction">
+          <div class="container section__grid section__grid--intro">
+            <div
+              class="section__copy"
+              data-aos="fade-right"
+              data-aos-duration="800"
+            >
+              <p class="section__kicker">Introduction</p>
+              <h2>First Encounter</h2>
+              <p class="section__text" id="intro-text">
+                What is this brown rice? It's all sticky, muddy, and wet. It
+                looks like a porridge, but was left to burn in the stove. It's
+                hot, as steam rises from the bowl. What is this taste? it tastes
+                bitter, but mildly comforting. What's with the smelly fish? Why
+                is it in the bowl? Is this even food? Or is this all just wasted
+                food?
+                <br />
+                <br />
+                Why does the saltiness of the fish, makes eating this more
+                unique? It feels like a porridge, but somehow isn't? Maybe this
+                is good on a rainy morning, watching the rain fall down as you
+                eat idly on a window. The bitterness does feel good when you
+                smell the earth as it got wet by the rain. But why does this
+                work so well?
+              </p>
+
+              <button
+                class="toggle-button"
+                type="button"
+                aria-expanded="false"
+                aria-controls="ethnographer-notes"
+                id="notes-toggle"
+                data-aos="fade-up"
+                data-aos-delay="100"
+                data-aos-duration="400"
+              >
+                Reveal Ethnographer's Notes
+              </button>
+
+              <div class="expand-panel" id="ethnographer-notes" hidden>
+                <p class="section__text section__text--muted">
+                  What the outsider sees as a confusing, possibly ruined
+                  porridge is, to a Filipino, a beloved comfort food: champorado
+                  at tuyo. The "brown rice" is glutinous rice or malagkit na
+                  kanin simmered with tablea, pure cacao tables introduced to
+                  the Philippines via the Manila-Acapulco galleon trade. The
+                  bitterness comes from the processed cacao. The "smelly fish"
+                  is tuyo, dried for preservation, used a lot in the country.
+                  Together, they create a contrast that elevates the this,
+                  something sweet at the same time salty, soft and mushy, but
+                  crisp as well. This dish is a generations-old ritual, tied to
+                  cold and rainy mornings, childhood, and the care of motherly
+                  figures.
+                </p>
+              </div>
+            </div>
+
+            <aside
+              class="section__aside vignette-card"
+              data-aos="fade-left"
+              data-aos-duration="800"
+              data-aos-delay="100"
+            >
+              <img
+                src="https://www.tastingtable.com/img/gallery/champorado-with-tuyo-a-filipino-chocolate-porridge-with-dried-fish/history-of-champorado-1680016065.jpg"
+                alt="A bowl of champorado with tuyo on the side"
+                class="vignette-card__img"
+                draggable="false"
+                style="height: 25vw; width: fit-content"
+              />
+            </aside>
+          </div>
+        </section>
+
+        <!-- Artifact gallery -->
+        <section class="section artifacts" id="artifacts">
+          <div class="container">
+            <div
+              class="section-heading"
+              data-aos="fade-up"
+              data-aos-duration="800"
+            >
+              <p class="section__kicker">Artifact Grid</p>
+              <h2>The Anatomy of the Morning Ritual</h2>
+            </div>
+            <div
+              class="artifact-grid"
+              id="artifact-grid"
+              aria-live="polite"
+            ></div>
+          </div>
+        </section>
+
+        <!-- Reflection space -->
+        <section class="section reflection" id="reflection">
+          <div class="container section__grid section__grid--reflection">
+            <article
+              class="section__copy reflection__copy"
+              data-aos="fade-right"
+              data-aos-duration="800"
+            >
+              <p class="section__kicker">Ethnographer's Reflection</p>
+              <h2>Mula sa Kusina ng Alaala</h2>
+              <p class="section__text">
+                This champorado at tuyo ritual is a nostalgia of care and
+                comfort. I grew up eating this on rainy mornings, when the world
+                outside felt cold and unwelcoming. The warmth of the porridge,
+                the bittersweet taste, and the salty crunch of the tuyo created
+                a sensory experience that was deeply comforting. It was a way
+                for me to connect with my childhood and with the care of my
+                grandmother, who would prepare this dish for me. <br />
+                <br />
+                Even now, as I cook and eat champorado at tuyo, I am reminded
+                back to those rainy mornings, feeling a sense of warmth and
+                nostalgia that is hard to put into words. This ritual is not
+                just about the food itself, but about the memories and emotions
+                that it evokes, making it a truly special and meaningful part of
+                my life.<br />
+                <br />
+                This exercise of writing about a common part of Filipino life,
+                made me realize how much depth and meaning can be found in the
+                everyday. This is the first time I questioned why tuyo is added
+                to champorado, and why it works so well. Its contradicting, yet
+                comforting. All I know is, this is something that I will always
+                go back to, especially on rainy mornings.
+              </p>
+            </article>
+
+            <aside
+              class="portrait-card"
+              data-aos="zoom-in"
+              data-aos-duration="1000"
+              data-aos-delay="100"
+            >
+              <div
+                class="portrait-card__image placeholder-portrait media-wrapper"
+                data-image-source="Drawn by the ethnographer"
+                data-image-description="Digitally drawn champorado at tuyo"
+              >
+                <img
+                  src="assets/champorado at tuyo.png"
+                  alt="A hand-drawn bowl of champorado at tuyo, steaming beside a plate of dried fish—a portrait of the ethnographer's memory"
+                  class="portrait-card__img"
+                  style="margin-top: 30vh"
+                  draggable="false"
+                />
+              </div>
+            </aside>
+          </div>
+        </section>
+      </main>
+
+      <!-- Footer / references link -->
+      <footer
+        class="footer"
+        data-aos="fade-in"
+        data-aos-duration="800"
+        data-aos-delay="100"
+      >
+        <div class="container footer__inner">
+          <p>
+            An ANTH 10 Final Project by John Angelo R. Alviar | Made with care
+            and champorado
+          </p>
+          <a href="#top">Back to top</a>
+        </div>
+      </footer>
+    </div>
+
+    <!-- Artifact modal -->
+    <div
+      class="modal"
+      id="artifact-modal"
+      aria-hidden="true"
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="modal-title"
+    >
+      <div class="modal__backdrop" data-close-modal></div>
+      <div class="modal__content" role="document">
+        <button
+          class="modal__close"
+          type="button"
+          aria-label="Close modal"
+          data-close-modal
+        >
+          ×
+        </button>
+        <div
+          class="modal__media placeholder-image placeholder-image--large"
+          aria-hidden="true"
+        >
+          <span id="modal-image-label">Illustration</span>
+        </div>
+        <div class="modal__body">
+          <p class="modal__kicker">Artifact Detail</p>
+          <h3 id="modal-title"></h3>
+
+          <div class="tabs" role="tablist" aria-label="Artifact details">
+            <button
+              class="tab is-active"
+              type="button"
+              role="tab"
+              id="tab-ritual"
+              aria-selected="true"
+              aria-controls="panel-ritual"
+              data-tab="ritual"
+            >
+              Ritual Account
+            </button>
+            <button
+              class="tab"
+              type="button"
+              role="tab"
+              id="tab-decoder"
+              aria-selected="false"
+              aria-controls="panel-decoder"
+              data-tab="decoder"
+              tabindex="-1"
+            >
+              Decoder
+            </button>
+          </div>
+
+          <div class="tabpanels">
+            <div
+              class="tabpanel is-active"
+              id="panel-ritual"
+              role="tabpanel"
+              aria-labelledby="tab-ritual"
+            ></div>
+            <div
+              class="tabpanel"
+              id="panel-decoder"
+              role="tabpanel"
+              aria-labelledby="tab-decoder"
+              hidden
+            ></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
